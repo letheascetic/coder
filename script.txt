@@ -1,6 +1,5 @@
 git commonds:
 
-
 git config --global user.name "Your Name"
 git config --global user.email "email@example.com"
 
@@ -9,10 +8,5 @@ git add file					提交到暂存区
 git commit -m  "description"	提交到仓库
 
 git status						查看状态
-git diff file					
-
-
-
-
-
+git diff file					比较文件
 
