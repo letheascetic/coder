@@ -38,6 +38,9 @@ git reset HEAD file				把暂存区的修改撤销掉（unstage），重新放回工作区
 git rm file 					删除文件(运行后本地文件删除,仓库和暂存区中文件区commit后才删除)
 
 
+ssh-keygen -t rsa -C "yizhifight@163.com"		创建SSH Key
+
+
 
 
 
