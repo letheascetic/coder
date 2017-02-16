@@ -40,9 +40,11 @@ git rm file 					删除文件(运行后本地文件删除,仓库和暂存区中文件区commit后才删除)
 
 ssh-keygen -t rsa -C "yizhifight@163.com"		创建SSH Key
 
+git remote add origin git@github.com:letheascetic/git.git
 
+git push -u origin master		把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程
 
-
+git push origin master
 
 
 
