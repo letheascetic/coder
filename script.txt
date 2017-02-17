@@ -64,6 +64,15 @@ git checkout dev 			切换到dev分支 将HEAD指针指向dev指针
 
 git branch					查看所有分支及当前所在的分支
 
-						
+git merge <name>			合并<name>分支到当前分支
+
+git branch -d dev			删除dev分支
+
+
+
+
+
+
+
 
 
