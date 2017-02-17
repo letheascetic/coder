@@ -60,9 +60,9 @@ git checkout -b dev			创建分支dev(dev指针) 并将HEAD指针指向dev指针
 							等于执行两次命令: 1 git branch dev 	2 git checkout dev
 
 git branch dev 				创建dev分支(dev指针)
-git checkout dev 			将HEAD指针指向dev指针
+git checkout dev 			切换到dev分支 将HEAD指针指向dev指针
 
-git branch 					查看所有分支及当前所在的分支
+git branch					查看所有分支及当前所在的分支
 
 						
 
