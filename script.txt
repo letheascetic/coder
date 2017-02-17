@@ -67,6 +67,8 @@ git merge <name>			合并<name>分支到当前分支
 git branch -d dev			删除dev分支
 
 
+Creating a new branch is quick & simple.
+
 
 
 
