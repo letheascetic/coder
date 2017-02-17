@@ -50,10 +50,8 @@ git push -u origin master
 git push origin master
 	把本地master分支的最新修改推送至GitHub，现在，你就拥有了真正的分布式版本库！
 
-git clone git@github.com:michaelliao/gitskills.git
-	使用ssh协议拷贝远程数据库至本地
-git clone https://github.com/letheascetic/hello-world.git
-
+git clone git@github.com:michaelliao/gitskills.git				使用ssh协议拷贝远程库到本地
+git clone https://github.com/letheascetic/hello-world.git		使用https拷贝远程库到本地
 
 
 git checkout -b dev			创建分支dev(dev指针) 并将HEAD指针指向dev指针
