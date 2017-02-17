@@ -41,10 +41,29 @@ git rm file 					删除文件(运行后本地文件删除,仓库和暂存区中文件区commit后才删除)
 ssh-keygen -t rsa -C "yizhifight@163.com"		创建SSH Key
 
 git remote add origin git@github.com:letheascetic/git.git
-
-git push -u origin master		把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程
+	添加后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。
+	
+git push -u origin master		
+	把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程
+	由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
 
 git push origin master
+	把本地master分支的最新修改推送至GitHub，现在，你就拥有了真正的分布式版本库！
 
+git clone git@github.com:michaelliao/gitskills.git
+	使用ssh协议拷贝远程数据库至本地
+git clone https://github.com/letheascetic/hello-world.git
+
+
+
+git checkout -b dev			创建分支dev(dev指针) 并将HEAD指针指向dev指针
+							等于执行两次命令: 1 git branch dev 	2 git checkout dev
+
+git branch dev 				创建dev分支(dev指针)
+git checkout dev 			将HEAD指针指向dev指针
+
+git branch 					查看所有分支及当前所在的分支
+
+						
 
 
