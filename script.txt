@@ -78,6 +78,16 @@ git stash drop				删除stash内容
 git stash pop				恢复并删除stash中内容	
 git stash apply stash@{0}	恢复指定的stash
 
+git branch -d <name>		删除分支,如果分支尚未合并则不能删除
+git branch -D <name>		删除分支. 无论是否已经合并
+
+git remote					查看远程库的名字
+git remote -v				远程库的详细信息
+
+
+
+
+
 
 git push origin master		推送本地库master到远程库origin
 git push origin dev			推送本地库dev到远程库origin
