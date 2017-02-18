@@ -79,9 +79,11 @@ git stash pop				恢复并删除stash中内容
 git stash apply stash@{0}	恢复指定的stash
 
 
+git push origin master		推送本地库master到远程库origin
+git push origin dev			推送本地库dev到远程库origin
 
 
-
+	
 
 
 
