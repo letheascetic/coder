@@ -62,10 +62,15 @@ git checkout dev 			切换到dev分支 将HEAD指针指向dev指针
 
 git branch					查看所有分支及当前所在的分支
 git merge <name>			合并<name>分支到当前分支
-
 git branch -d dev			删除dev分支
 
 git log --graph				查看分支合并图
+
+
+
+git merge --no-ff -m "merge with no-ff" dev		合并dev分支，--no-ff参数，表示禁用Fast forward，本次合并要创建一个新的commit，所以加上-m参数，把commit描述写进去
+
+
 
 
 
