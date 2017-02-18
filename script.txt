@@ -71,6 +71,12 @@ git log --graph				查看分支合并图
 git merge --no-ff -m "merge with no-ff" dev		合并dev分支，--no-ff参数，表示禁用Fast forward，本次合并要创建一个新的commit，所以加上-m参数，把commit描述写进去
 
 
+git stash					把当前工作现场储藏起来，等以后恢复现场后继续工作
+git stash list				显示stash中存储的内容
+git stash apply				恢复，但stash中内容仍存在
+git stash drop				删除stash内容
+git stash pop				恢复并删除stash中内容	
+git stash apply stash@{0}	恢复指定的stash
 
 
 
