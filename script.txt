@@ -87,12 +87,14 @@ git remote -v				远程库的详细信息
 git push origin master		推送本地库master到远程库origin
 git push origin dev			推送本地库dev到远程库origin
 
+git tag v1.0				在当前库打标签
+git tag v0.9 6224937		给指定commit id打标签
+git tag -a v0.1 -m "version 0.1 released" 3628164			创建带有说明的标签，用-a指定标签名，-m指定说明文字
+git tag -s v0.2 -m "signed version 0.2 released" fec145a	通过-s用私钥签名一个标签
+git tag						显示已经打的标签
+git show <tagname>			显示指定标签对应的版本信息
 
 
-
-
-git push origin master		推送本地库master到远程库origin
-git push origin dev			推送本地库dev到远程库origin
 
 
 	
