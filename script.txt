@@ -66,10 +66,7 @@ git branch -d dev			É¾³ıdev·ÖÖ§
 
 git log --graph				²é¿´·ÖÖ§ºÏ²¢Í¼
 
-
-
 git merge --no-ff -m "merge with no-ff" dev		ºÏ²¢dev·ÖÖ§£¬--no-ff²ÎÊı£¬±íÊ¾½ûÓÃFast forward£¬±¾´ÎºÏ²¢Òª´´½¨Ò»¸öĞÂµÄcommit£¬ËùÒÔ¼ÓÉÏ-m²ÎÊı£¬°ÑcommitÃèÊöĞ´½øÈ¥
-
 
 git stash					°Ñµ±Ç°¹¤×÷ÏÖ³¡´¢²ØÆğÀ´£¬µÈÒÔºó»Ö¸´ÏÖ³¡ºó¼ÌĞø¹¤×÷
 git stash list				ÏÔÊ¾stashÖĞ´æ´¢µÄÄÚÈİ
@@ -94,10 +91,16 @@ git tag -s v0.2 -m "signed version 0.2 released" fec145a	Í¨¹ı-sÓÃË½Ô¿Ç©ÃûÒ»¸ö±êÇ
 git tag						ÏÔÊ¾ÒÑ¾­´òµÄ±êÇ©
 git show <tagname>			ÏÔÊ¾Ö¸¶¨±êÇ©¶ÔÓ¦µÄ°æ±¾ĞÅÏ¢
 
+git tag -d v0.1				É¾³ı±êÇ© ´´½¨µÄ±êÇ©¶¼Ö»´æ´¢ÔÚ±¾µØ£¬²»»á×Ô¶¯ÍÆËÍµ½Ô¶³Ì¡£ËùÒÔ£¬´ò´íµÄ±êÇ©¿ÉÒÔÔÚ±¾µØ°²È«É¾³ı
 
+git push origin <tagname>	ÍÆËÍÖ¸¶¨±êÇ©µ½Ô¶³Ì¿â	
+git push origin --tags		Ò»´ÎĞÔÍÆËÍÈ«²¿ÉĞÎ´ÍÆËÍµ½Ô¶³ÌµÄ±¾µØ±êÇ©
 
+Èç¹û±êÇ©ÒÑ¾­ÍÆËÍµ½Ô¶³Ì£¬ÒªÉ¾³ıÔ¶³Ì±êÇ©¾ÍÂé·³Ò»µã£¬ÏÈ´Ó±¾µØÉ¾³ı£º
+git tag -d v0.9
+È»ºó£¬´ÓÔ¶³ÌÉ¾³ı¡£É¾³ıÃüÁîÒ²ÊÇpush£¬µ«ÊÇ¸ñÊ½ÈçÏÂ
+git push origin :refs/tags/v0.9
 
-	
 
 
 
