@@ -102,6 +102,16 @@ git tag -d v0.9
 git push origin :refs/tags/v0.9
 
 
+在Git工作区的根目录下创建一个特殊的.gitignore文件，然后把要忽略的文件名填进去，Git就会自动忽略这些文件
+不需要从头写.gitignore文件，GitHub已经为我们准备了各种配置文件，只需要组合一下就可以使用了。
+所有配置文件可以直接在线浏览：https://github.com/github/gitignore
+
+
+有些时候，你想添加一个文件到Git，但发现添加不了，原因是这个文件被.gitignore忽略了：
+
+git add App.class				#The following paths are ignored by one of your .gitignore files: App.class Use -f if you really want to add them.
+git add -f App.class			用-f强制添加到Git
+git check-ignore -v App.class	检测.gitignore的那一条规则忽略了该文件
 
 
 
