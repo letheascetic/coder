@@ -1,0 +1,17 @@
+#redis script
+
+### CONFIG 命令
+
+#### CONFIG GET
+
+> CONFIG GET CONFIG_SETTING_NAME
+> CONFIG GET loglevel
+> CONFIG GET *
+
+#### CONFIG SET
+
+> CONFIG SET CONFIG_SETTING_NAME NEW_CONFIG_VALUE
+> CONFIG SET loglevel "notice"
+
+
+
