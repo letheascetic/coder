@@ -1,4 +1,4 @@
-#redis script
+# redis script
 
 ### CONFIG 命令
 
@@ -12,6 +12,7 @@
 
 > CONFIG SET CONFIG_SETTING_NAME NEW_CONFIG_VALUE
 > CONFIG SET loglevel "notice"
+
 
 
 
