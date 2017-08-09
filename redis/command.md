@@ -1,4 +1,4 @@
-# redis script
+# redis command script
 
 ### CONFIG 命令
 
