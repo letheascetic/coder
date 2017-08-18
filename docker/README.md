@@ -1,5 +1,18 @@
 # docker
-command line for docker
+concept & command line for docker
+
+### concept
+
+##### container
+
+##### image
+
+##### service
+
+##### swarm
+
+
+### common command line
 
 ##### docker images
     docker images                           # Show images
