@@ -7,9 +7,15 @@ concept & command line for docker
 
 ##### container
 
+    A container is a runtime instance of an image—what the image becomes in memory when actually executed. It runs completely isolated from the host environment by default, only accessing host files and ports if configured to do so.
+
 ##### image
 
+    An image is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files.
+
 ##### service
+
+    In a distributed application, different pieces of the app are called “services.” Scaling a service changes the number of container instances running that piece of software, assigning more computing resources to the service in the process.
 
 ##### swarm
 
