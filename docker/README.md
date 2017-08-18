@@ -3,7 +3,8 @@ command line for docker
 
 ##### docker images
     docker images                           # Show images
-
+    docker image ls                         # == docker images
+    
 ##### docker stop
     docker stop <hash>                     # Gracefully stop the specified container
 
@@ -48,3 +49,17 @@ command line for docker
 
 ##### docker push
     docker push username/repository:tag            # Upload tagged image to registry
+
+
+##### docker stack
+    docker swarm init
+    docker stack deploy -c docker-compose.yml getstartedlab
+    docker stack ps getstartedlab
+    docker stack rm getstartedlab
+    
+    docker stack ls                                     # List all running applications on this Docker host
+    docker stack deploy -c <composefile> <appname>      # Run the specified Compose file
+    docker stack services <appname>                     # List the services associated with an app
+    docker stack ps <appname>                           # List the running containers associated with an app
+    docker stack rm <appname>                           # Tear down an application
+
