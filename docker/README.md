@@ -1,6 +1,8 @@
 # docker
 command line for docker
 
+##### docker images
+    docker images                           # Show images
 
 ##### docker stop
     docker stop <hash>                     # Gracefully stop the specified container
@@ -36,11 +38,12 @@ command line for docker
   
   
 ##### docker login
-    docker login             # Log in this CLI session using your Docker credentials
+    docker login                              # Log in this CLI session using your Docker credentials
   
 
 ##### docker tag
-    docker tag <image> username/repository:tag    # Tag <image> for upload to registry
+    docker tag <image> username/repository:tag                  # Tag <image> for upload to registry
+    docker tag friendlyhello letheascetic/get-started:part1
 
 
 ##### docker push
