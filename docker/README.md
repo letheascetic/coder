@@ -71,7 +71,7 @@ concept & command line for docker
 
 ##### docker tag
     docker tag <image> username/repository:tag                  # Tag <image> for upload to registry
-    docker tag friendlyhello letheascetic/get-started:part1
+    docker tag friendlyhello letheascetic/get-started:part1
 
 
 ##### docker push
