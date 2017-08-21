@@ -91,6 +91,11 @@ concept & command line for docker
     docker stack rm <appname>                           # Tear down an application
 
 
+##### docker swarm
+    docker swarm init
+    docker swarm leave                      # Make the worker leave the swarm
+    docker swarm leave --force              # Make master leave, kill swarm, == docker swarm leave -f
+
 ##### docker-machine
     docker-machine create --driver virtualbox myvm1                                 # Create a VM (Mac, Win7, Linux)
     docker-machine create -d hyperv --hyperv-virtual-switch "myswitch" myvm1        # Win10
