@@ -117,4 +117,15 @@ concept & command line for docker
     docker-machine ssh myvm1 "docker stack deploy -c <file> <app>"  # Deploy an app
 
 
+##### docker network
+    docker network ls                                               # show networks
+    docker run -itd --name=networktest ubuntu                       # run container (named networktest)
+    docker run -d --net=my_bridge --name db training/postgres       # run container with config the connection network
+    docker network disconnect bridge networktest                    # remove a container from a network by disconnecting the container
+                                                                    # here, remove container(networktest) from nectwork(bridge)
+    docker network create -d bridge my_bridge                       # create a bridge network, -d flag tells to use the bridge driver for the new
+    docker network inspect my_bridge                                # inspect network
+    docker inspect --format='{{json .NetworkSettings.Networks}}'  db    # inspect container(db)
+    docker network connect my_bridge web                            # connect container(web) to network(my_bridge)
+    
 
