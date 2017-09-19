@@ -98,7 +98,7 @@ concept & command line for docker
 ##### docker swarm
     docker swarm init
     docker swarm leave                      # Make the worker leave the swarm
-    docker swarm leave --force              # Make master leave, kill swarm, == docker swarm leave -f
+    docker swarm leave --force              # Make master leave, kill swarm, == docker swarm leave -f
 
 ##### docker-machine
     docker-machine create --driver virtualbox myvm1                                 # Create a VM (Mac, Win7, Linux)
