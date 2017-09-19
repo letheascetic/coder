@@ -3,8 +3,7 @@
 ##### install tor nc & privoxy
     yum install epel-release
     yum install tor
-    yum install nc
-  
+    yum install nc
   
 ##### config run tor & privoxy
     1 tor --hash-password mypassword    # create password
