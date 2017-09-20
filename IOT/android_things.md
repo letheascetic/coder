@@ -2,6 +2,8 @@
 
 ### Overview
 
+![](https://github.com/letheascetic/coder/blob/master/IOT/pic/platform-architecture.png "platform-architecture")
+
 * Apps for embedded devices bring developers closer to hardware peripherals and drivers than phones and tablets. In addition, embedded devices typically present a single app experience to users.
 * Android Things extends the core Android framework with additional APIs provided by the Things Support Library. These APIs allow apps to integrate with new types of hardware not found on mobile devices.
 * The Android Things platform is also streamlined for single application use. System apps are not present, and your app is launched automatically on startup to immerse your users in the app experience.
