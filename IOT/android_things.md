@@ -14,7 +14,14 @@
 不要求必须要有屏幕。
 > android Things does not require a display.
 
-两套针对物联网的新的 API，分别是 Peripheral I/O 和 User-Space Drivers
+Peripheral I/O 和 User-Space Drivers
+> Peripheral I/O 是方便开发者访问各种 pin 的，支持各种标准：GPIO、PWM、I2C、SPI、UART。
+> User-Space Drivers 可以让开发者在不改动操作系统的情况下为自己的设备提供驱动，从而让这些设备可以被 Android Framework 识别，比如各种 sensor 以及输入设备。
+
+
+### references
+
+* https://www.zhihu.com/question/53623720/answer/137180672
 
 
 
