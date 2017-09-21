@@ -5,7 +5,7 @@ IoT security can be covered with four cornerstones:
 ##### Protecting Communications
 
 * encryption and authentication for devices to know whether or not they can trust a remote system
-* elliptic curve cryptography
+* elliptic curve cryptography (ECC)
 * embedded “device certificate” keys
 
 ##### Protecting Devices
@@ -26,8 +26,14 @@ IoT security can be covered with four cornerstones:
 Comprehensive security requires clean integration of the **key management, host-based security, OTA infrastructure, and security analytics**. 
 
 
+### Strategy
 
+#### Protecting Communications
 
+* Elliptic Curve Cryptography (ECC) has been proven 10x faster and more efficient than traditional encryption in resource constrained chips, such as IoT chips. 
 
+* 224-bit ECC at a minimum for end-entity certificates, with 256-bit and 384-bit preferred; (b) 256-bit ECC at a minimum for root certificates, with 384-bit preferred.
+
+* 
 
 
