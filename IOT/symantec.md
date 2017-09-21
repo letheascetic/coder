@@ -46,12 +46,23 @@ Comprehensive security requires clean integration of the **key management, host-
 
 ### Managing Devices
 
-• Configuration updates
-• Management of security content and security telemetry for security analytics
-• Management of telemetry and control for proper system function
-• Diagnostics and remediation
-• Management of Network Access Control (NAC) credentials
-• Management of permissions, and countless other examples
+IoT systems must have OTA update capabilities built into them from the beginning.
+
+* Configuration updates
+* Management of security content and security telemetry for security analytics
+* Management of telemetry and control for proper system function
+* Diagnostics and remediation
+* Management of Network Access Control (NAC) credentials
+* Management of permissions, and countless other examples
+
+### Understanding Your System
+
+Security Analytics to Address Threats Beyond the Above Countermeasures
+
+
+### references
+
+* https://www.symantec.com/content/dam/symantec/docs/white-papers/iot-security-reference-architecture-en.pdf
 
 
 
