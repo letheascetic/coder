@@ -32,8 +32,29 @@ Comprehensive security requires clean integration of the **key management, host-
 
 * Elliptic Curve Cryptography (ECC) has been proven 10x faster and more efficient than traditional encryption in resource constrained chips, such as IoT chips. 
 
-* 224-bit ECC at a minimum for end-entity certificates, with 256-bit and 384-bit preferred; (b) 256-bit ECC at a minimum for root certificates, with 384-bit preferred.
+* (a) 224-bit ECC at a minimum for end-entity certificates, with 256-bit and 384-bit preferred; (b) 256-bit ECC at a minimum for root certificates, with 384-bit preferred.
 
-* 
+* embed both roots of trust and device certificates into devices
+
+#### Protecting Devices
+
+* Protecting the Code that Drives IoT, code signing
+* (a) 224-bit ECC at a minimum for end-entity certificates, with 256-bit and 384-bit preferred; (b) 521-bit ECC at a minimum for root certificates
+* Effective Host-Based Protection for IoT
+* system hardening, whitelisting, application sandboxing, reputation-based technology, antimalware, and encryption. 
+
+
+### Managing Devices
+
+• Configuration updates
+• Management of security content and security telemetry for security analytics
+• Management of telemetry and control for proper system function
+• Diagnostics and remediation
+• Management of Network Access Control (NAC) credentials
+• Management of permissions, and countless other examples
+
+
+
+
 
 
