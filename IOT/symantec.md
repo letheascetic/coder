@@ -22,7 +22,7 @@ IoT security can be covered with four cornerstones:
 
 * an IoT Security Analytics capability that helps you best understand your network
 
-
+## 
 Comprehensive security requires clean integration of the **key management, host-based security, OTA infrastructure, and security analytics**. 
 
 
