@@ -33,7 +33,7 @@ Weave提供了一套标准的设备操作命令（叫做Schema），以及对应
 ### 两类API
 
 * Weave Local API
-* WeaveCloud API
+* Weave Cloud API
 
 
 ## 参考
