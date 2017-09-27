@@ -1,6 +1,8 @@
 # weave
 
-物联网通信框架，不依赖于任何底层的通信协议，它可以运行在任何常见的物联网通信协议之上，包括WiFi，BLE，Zigbee等等
+* 物联网通信框架，不依赖于任何底层的通信协
+* 它可以运行在任何常见的物联网通信协议之上，包括WiFi，BLE，Zigbee等等
+* 低功耗、低带宽、低延迟、安全
 
 ## 特点
 
@@ -23,7 +25,7 @@ Weave提供了一套标准的设备操作命令（叫做Schema），以及对应
 
 ![](https://github.com/letheascetic/coder/blob/master/IOT/pic/weave.png "weave-architecture")
 
-* 云端组件（WeaveCloud）
+* 云端组件（WeaveCloud）：提供所有的云化基础环境
 * 智能手机端组件: Android & IOS lib/api 
 * 设备端组件（LibWeave和uWeave）
 
@@ -37,9 +39,14 @@ Weave提供了一套标准的设备操作命令（叫做Schema），以及对应
 * Weave Local API:  mDNS, HTTPS, BLE
 * Weave Cloud API:  DNS, HTTPS, XMPP(星形通信)
 
+## 现状
 
+三星电子的SmartThings智能硬件，以及Philips Hue等产品已经在使用Weave通信协议
 
+一些其他的产品如Belking WeMo,LiFX,Honeywell,Wink，TP-Link和First Alert也正在整合实施当中。
 
 ## 参考
 http://blog.csdn.net/hellochina15/article/details/51969995
 http://www.infoq.com/cn/news/2015/10/nest-weave
+http://news.zol.com.cn/619/6193924.html
+
