@@ -39,6 +39,25 @@ Weave提供了一套标准的设备操作命令（叫做Schema），以及对应
 * Weave Local API:  mDNS, HTTPS, BLE
 * Weave Cloud API:  DNS, HTTPS, XMPP(星形通信)
 
+## 技术
+
+### 标准的命令和状态Schema
+
+* 传递的数据无非分为两类：命令（command）和状态（state）
+* 设备分类，每类设备赋予一个标准的类别编码
+* 定义每种类别的设备的标准命令和状态，用JSON格式进行表示
+* 采用全球唯一ID(GUID)来标识每个设备
+* 设备厂商可以自己定义，然后向Google申请认证
+
+> 
+{
+    “deviceId”: “52c867ca-17d5-f422-a2c8-b31c4e02743e”,
+    “name”: “onOff.setConfig”,
+    “parameters”: {
+       “state” : “on”
+     }
+}
+
 ## 现状
 
 三星电子的SmartThings智能硬件，以及Philips Hue等产品已经在使用Weave通信协议
