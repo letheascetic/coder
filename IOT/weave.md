@@ -24,18 +24,20 @@ Weave提供了一套标准的设备操作命令（叫做Schema），以及对应
 ![](https://github.com/letheascetic/coder/blob/master/IOT/pic/weave.png "weave-architecture")
 
 * 云端组件（WeaveCloud）
-* 智能手机段组件: Android & IOS lib/api 
+* 智能手机端组件: Android & IOS lib/api 
 * 设备端组件（LibWeave和uWeave）
 
-> LibWeave: 适应于具备复杂计算能力的设备
-> uWeave: 运行在资源受限的嵌入式设备上
+> LibWeave: 适应于具备复杂计算能力的设备, 设备连接Cloud
+> uWeave: 运行在资源受限的嵌入式设备上，设备不连接Cloud，只接收手机端管理
 
 ### 两类API
 
 ![](https://github.com/letheascetic/coder/blob/master/IOT/pic/weave-api.png "weave-api")
 
-* Weave Local API
-* Weave Cloud API
+* Weave Local API:  mDNS, HTTPS, BLE
+* Weave Cloud API:  DNS, HTTPS, XMPP(星形通信)
+
+
 
 
 ## 参考
