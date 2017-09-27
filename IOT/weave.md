@@ -19,9 +19,9 @@ Weave提供了一套标准的设备操作命令（叫做Schema），以及对应
 
 ## weave 组成
 
-![](https://github.com/letheascetic/coder/blob/master/IOT/pic/weave.png "weave-architecture")
-
 ### 三大组件
+
+![](https://github.com/letheascetic/coder/blob/master/IOT/pic/weave.png "weave-architecture")
 
 * 云端组件（WeaveCloud）
 * 智能手机段组件: Android & IOS lib/api 
@@ -31,6 +31,8 @@ Weave提供了一套标准的设备操作命令（叫做Schema），以及对应
 > uWeave: 运行在资源受限的嵌入式设备上
 
 ### 两类API
+
+![](https://github.com/letheascetic/coder/blob/master/IOT/pic/weave-api.png "weave-api")
 
 * Weave Local API
 * Weave Cloud API
