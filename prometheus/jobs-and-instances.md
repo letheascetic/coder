@@ -7,3 +7,4 @@ prometheus 中，将任意一个独立的数据源（target）称之为实例（
         - instance 2: 1.2.3.4:5671
         - instance 3: 5.6.7.8:5670
         - instance 4: 5.6.7.8:5671
+
