@@ -44,7 +44,7 @@
 
 ##### 方法一
 
-    channel.exchangeDeclare(exchangeName, "direct", true);
+    channel.exchangeDeclare(exchangeName, "direct", true);
     String queueName = channel.queueDeclare().getQueue();
     channel.queueBind(queueName, exchangeName, routingKey);
 
