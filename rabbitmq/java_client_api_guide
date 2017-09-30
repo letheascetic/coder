@@ -1,2 +1,20 @@
-# java client api guide
+# Java Client API Guide
 
+# Overview
+
+### 主要类和接口
+
+* Channel
+* Connection
+* ConnectionFactory
+* Consumer
+
+### 连接broker
+
+    ConnectionFactory factory = new ConnectionFactory();
+    factory.setUsername(userName);
+    factory.setPassword(password);
+    factory.setVirtualHost(virtualHost);
+    factory.setHost(hostName);
+    factory.setPort(portNumber);
+    Connection conn = factory.newConnection();
