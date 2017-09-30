@@ -49,6 +49,7 @@
     channel.queueBind(queueName, exchangeName, routingKey);
 
 > a durable, non-autodelete exchange of "direct" type
+
 > a non-durable, exclusive, autodelete queue with a generated name
 
 
