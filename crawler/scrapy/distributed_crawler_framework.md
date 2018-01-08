@@ -33,7 +33,7 @@
 * customizable crawling policy
 
         strategy workers: scoring the links, deciding if link needs to be scheduled and when to stop crawling
-        store all the metadata, including scores and content, and generating new batches for downloading by spiders.
+        DB workers: store all the metadata, including scores and content, and generating new batches for downloading by spiders.
 
 ### scrapy-redis vs scrapy-cluster vs frontera
 
