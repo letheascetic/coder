@@ -17,8 +17,8 @@
 
 ### scrapy-cluster
 
-> Kafka Monitor: validates API requests in the correct format 
-> Redis Monitor: moderate the redis based crawling queue, expire old crawls, stop existing crawls, gather information about the cluster
+    Kafka Monitor: validates API requests in the correct format 
+    Redis Monitor: moderate the redis based crawling queue, expire old crawls, stop existing crawls, gather information about the cluster
 
 
 ### scrapy-redis vs scrapy-cluster vs frontera
